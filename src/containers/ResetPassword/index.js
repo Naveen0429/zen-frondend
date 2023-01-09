@@ -58,8 +58,8 @@ export function ResetPassword(){
             <form className="resetContent" onSubmit={(e) => onReset(e)}>
                 <div className="logo">
                     <div className="logoText">
-                        <span>LEARN</span>
-                        INFINITY
+                        <span>ZEN</span>
+                        TUTOR
                     </div>
                 </div>
                 {invalidErrorMessage && <div className="invalidErrorMessage">{invalidErrorMessage}</div>}
