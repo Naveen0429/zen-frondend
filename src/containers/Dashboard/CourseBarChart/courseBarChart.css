@@ -2,13 +2,13 @@
     height: 500px;
     width: 730px;
     margin-top: 20px;
-    background: linear-gradient(169deg, rgb(251, 251, 255) 18.82%, rgb(215, 223, 252) 100.00%);
+    background: rgba(0, 0, 139, 0.2);
     padding: 20px 40px;
     box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%);
 }
 
 .courseBarChart text {
-    stroke:black;
+    stroke: white;
     font-weight: 100;
 }
 
