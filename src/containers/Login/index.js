@@ -51,8 +51,8 @@ export function Login() {
         <form className="loginContent" onSubmit={(e) => onLogin(e)}>
             <div className="logo">
                 <div className="logoText">
-                    <span>LEARN</span>
-                    INFINITY
+                    <span>ZEN</span>
+                    CLASS
                 </div>
             </div>
             {invalidErrorMessage && <div className="invalidErrorMessage">{invalidErrorMessage}</div>}
