@@ -1,7 +1,4 @@
-
-
 .dashBoardContainer {
-
     overflow-y: auto;
     overflow-x: hidden;
     margin-bottom: 20px;
@@ -15,7 +12,10 @@
     
 }
 
-
+.dashBoardContainer::-webkit-scrollbar { 
+    /* width: 0 !important */
+    /* scrollbar-width: thin; */
+}
 
 .courseChartWrapper {
     display: flex;
@@ -30,12 +30,13 @@
 
 .courseStatusCharts h2,
 .taskChartWrapper h2 {
-    color:whitesmoke;
+    text-align: center;
+    color: aqua;
     margin-bottom: 0;
-    margin-left:250px;
 }
 
 .taskChartWrapper h2 {
     width: 350px;
-    margin: 40px 60px 
+    text-align: right;
+    margin-top: 60px;
 }
